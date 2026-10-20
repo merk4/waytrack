@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-white text-slate-900 antialiased dark:bg-slate-900 dark:text-slate-100;
+    font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-emerald-600 dark:outline-emerald-400;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-xl bg-emerald-700 px-4 font-medium text-white hover:bg-emerald-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-emerald-600 dark:hover:bg-emerald-500;
+  }
+  .btn-tool {
+    @apply flex min-h-14 flex-col items-center justify-center gap-0.5 rounded-xl bg-slate-100 px-1 text-slate-800 hover:bg-slate-200 disabled:cursor-not-allowed disabled:opacity-40 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700;
+  }
+  .btn-link {
+    @apply min-h-11 px-2 text-sm font-medium text-emerald-800 underline dark:text-emerald-300;
+  }
+}
+
+/* Map markers (DOM elements managed by MapLibre). */
+.wm-waypoint {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  background: #fff;
+  color: #0f172a;
+  border: 3px solid #334155;
+  font: 600 12px/1 system-ui, sans-serif;
+  cursor: grab;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
+}
+.wm-start { background: #059669; border-color: #fff; color: #fff; }
+.wm-end { background: #0f172a; border-color: #fff; color: #fff; }
+.wm-km {
+  display: grid;
+  place-items: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 4px;
+  border-radius: 9999px;
+  background: #0f172a;
+  color: #fff;
+  font: 600 11px/1 system-ui, sans-serif;
+  pointer-events: none;
+}
+.wm-turn {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: #fef3c7;
+  color: #92400e;
+  border: 2px solid #92400e;
+  font: 700 13px/1 system-ui, sans-serif;
+  pointer-events: none;
+}
+.wm-highlight {
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 4px solid #dc2626;
+  box-shadow: 0 0 0 3px rgb(220 38 38 / 0.3);
+  pointer-events: none;
+}

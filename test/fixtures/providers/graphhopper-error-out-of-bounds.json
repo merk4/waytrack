@@ -1,0 +1,19 @@
+{
+ "status": 400,
+ "credits": "0",
+ "body": {
+  "message": "Cannot find point 0: -60.0,0.5",
+  "hints": [
+   {
+    "message": "Cannot find point 0: -60.0,0.5",
+    "details": "com.graphhopper.util.exceptions.PointNotFoundException",
+    "point_index": 0
+   },
+   {
+    "message": "Cannot find point 1: -60.1,0.6",
+    "details": "com.graphhopper.util.exceptions.PointNotFoundException",
+    "point_index": 1
+   }
+  ]
+ }
+}

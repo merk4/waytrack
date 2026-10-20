@@ -1,0 +1,7 @@
+{
+ "status": 400,
+ "body": {
+  "reason": "Latitude must be in range of -90 to 90°. Given: 91.0.",
+  "error": true
+ }
+}

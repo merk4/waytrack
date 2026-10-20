@@ -1,0 +1,322 @@
+{
+ "status": 200,
+ "credits": "1",
+ "body": {
+  "hints": {
+   "visited_nodes.sum": 144,
+   "visited_nodes.average": 72
+  },
+  "info": {
+   "copyrights": [
+    "GraphHopper",
+    "OpenStreetMap contributors"
+   ],
+   "took": 2,
+   "road_data_timestamp": "2026-10-17T12:00:00Z"
+  },
+  "paths": [
+   {
+    "distance": 910.882,
+    "weight": 6905,
+    "time": 766554,
+    "transfers": 0,
+    "legs": [],
+    "points_encoded": false,
+    "bbox": [
+     23.751014,
+     37.96229,
+     23.75444,
+     37.967814
+    ],
+    "points": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       23.753469,
+       37.96229
+      ],
+      [
+       23.753459,
+       37.962361
+      ],
+      [
+       23.752674,
+       37.962719
+      ],
+      [
+       23.752591,
+       37.962781
+      ],
+      [
+       23.751814,
+       37.963477
+      ],
+      [
+       23.751278,
+       37.963996
+      ],
+      [
+       23.751116,
+       37.964119
+      ],
+      [
+       23.751125,
+       37.964368
+      ],
+      [
+       23.75109,
+       37.964562
+      ],
+      [
+       23.751014,
+       37.964744
+      ],
+      [
+       23.752038,
+       37.965344
+      ],
+      [
+       23.753036,
+       37.965928
+      ],
+      [
+       23.754052,
+       37.966492
+      ],
+      [
+       23.753382,
+       37.967228
+      ],
+      [
+       23.75444,
+       37.967814
+      ]
+     ]
+    },
+    "instructions": [
+     {
+      "distance": 295.036,
+      "heading": 353.76,
+      "sign": 0,
+      "interval": [
+       0,
+       6
+      ],
+      "text": "Continue onto Μεσολογγίου",
+      "time": 203393,
+      "street_name": "Μεσολογγίου"
+     },
+     {
+      "distance": 49.733,
+      "sign": 2,
+      "interval": [
+       6,
+       8
+      ],
+      "text": "Turn right onto Χρυσοστόμου Σμύρνης",
+      "time": 50646,
+      "street_name": "Χρυσοστόμου Σμύρνης"
+     },
+     {
+      "distance": 0,
+      "sign": 5,
+      "last_heading": 341.60889661289946,
+      "interval": [
+       8,
+       8
+      ],
+      "text": "Waypoint 1",
+      "time": 0,
+      "street_name": ""
+     },
+     {
+      "distance": 21.509,
+      "heading": 341.61,
+      "sign": 0,
+      "interval": [
+       8,
+       9
+      ],
+      "text": "Continue onto Χρεμωνίδου",
+      "time": 30973,
+      "street_name": "Χρεμωνίδου"
+     },
+     {
+      "distance": 330.257,
+      "sign": 2,
+      "interval": [
+       9,
+       12
+      ],
+      "text": "Turn right onto Λάσκου",
+      "time": 328314,
+      "street_name": "Λάσκου"
+     },
+     {
+      "distance": 100.774,
+      "sign": -2,
+      "interval": [
+       12,
+       13
+      ],
+      "text": "Turn left onto Κόνωνος",
+      "time": 72557,
+      "street_name": "Κόνωνος"
+     },
+     {
+      "distance": 113.573,
+      "sign": 2,
+      "interval": [
+       13,
+       14
+      ],
+      "text": "Turn right onto Φιλολάου",
+      "time": 80671,
+      "street_name": "Φιλολάου"
+     },
+     {
+      "distance": 0,
+      "sign": 4,
+      "last_heading": 55.009677910510334,
+      "interval": [
+       14,
+       14
+      ],
+      "text": "Arrive at destination",
+      "time": 0,
+      "street_name": ""
+     }
+    ],
+    "details": {
+     "surface": [
+      [
+       0,
+       8,
+       "asphalt"
+      ],
+      [
+       8,
+       10,
+       "asphalt"
+      ],
+      [
+       10,
+       12,
+       "missing"
+      ],
+      [
+       12,
+       14,
+       "asphalt"
+      ]
+     ],
+     "foot_access": [
+      [
+       0,
+       8,
+       true
+      ],
+      [
+       8,
+       14,
+       true
+      ]
+     ],
+     "road_class": [
+      [
+       0,
+       6,
+       "residential"
+      ],
+      [
+       6,
+       8,
+       "tertiary"
+      ],
+      [
+       8,
+       9,
+       "tertiary"
+      ],
+      [
+       9,
+       10,
+       "residential"
+      ],
+      [
+       10,
+       12,
+       "pedestrian"
+      ],
+      [
+       12,
+       13,
+       "residential"
+      ],
+      [
+       13,
+       14,
+       "secondary"
+      ]
+     ],
+     "street_name": [
+      [
+       0,
+       6,
+       "Μεσολογγίου"
+      ],
+      [
+       6,
+       7,
+       "Χρυσοστόμου Σμύρνης"
+      ],
+      [
+       7,
+       8,
+       "Χρεμωνίδου"
+      ],
+      [
+       8,
+       9,
+       "Χρεμωνίδου"
+      ],
+      [
+       9,
+       12,
+       "Λάσκου"
+      ],
+      [
+       12,
+       13,
+       "Κόνωνος"
+      ],
+      [
+       13,
+       14,
+       "Φιλολάου"
+      ]
+     ]
+    },
+    "ascend": 21.912841796875,
+    "descend": 21.574023660359273,
+    "snapped_waypoints": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       23.753469,
+       37.96229
+      ],
+      [
+       23.75109,
+       37.964562
+      ],
+      [
+       23.75444,
+       37.967814
+      ]
+     ]
+    }
+   }
+  ]
+ }
+}

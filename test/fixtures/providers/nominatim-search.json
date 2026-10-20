@@ -1,0 +1,69 @@
+{
+ "status": 200,
+ "body": [
+  {
+   "place_id": 55880501,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 263776849,
+   "lat": "37.9613474",
+   "lon": "23.7553876",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053416607156481236,
+   "addresstype": "road",
+   "name": "Μεσολογγίου",
+   "display_name": "Μεσολογγίου, Βύρωνας, Δήμος Βύρωνα, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 162 31, Ελλάδα",
+   "address": {
+    "road": "Μεσολογγίου",
+    "suburb": "Βύρωνας",
+    "municipality": "Δήμος Βύρωνα",
+    "county": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "state": "Περιφέρεια Αττικής",
+    "ISO3166-2-lvl5": "GR-I",
+    "postcode": "162 31",
+    "country": "Ελλάδα",
+    "country_code": "gr"
+   },
+   "boundingbox": [
+    "37.9605130",
+    "37.9623609",
+    "23.7534588",
+    "23.7574471"
+   ]
+  },
+  {
+   "place_id": 55537992,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 408277775,
+   "lat": "37.9634589",
+   "lon": "23.7518347",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053416607156481236,
+   "addresstype": "road",
+   "name": "Μεσολογγίου",
+   "display_name": "Μεσολογγίου, Βύρωνας, Δήμος Βύρωνα, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 116 33, Ελλάδα",
+   "address": {
+    "road": "Μεσολογγίου",
+    "suburb": "Βύρωνας",
+    "municipality": "Δήμος Βύρωνα",
+    "county": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "state": "Περιφέρεια Αττικής",
+    "ISO3166-2-lvl5": "GR-I",
+    "postcode": "116 33",
+    "country": "Ελλάδα",
+    "country_code": "gr"
+   },
+   "boundingbox": [
+    "37.9628072",
+    "37.9641187",
+    "23.7511164",
+    "23.7525620"
+   ]
+  }
+ ]
+}

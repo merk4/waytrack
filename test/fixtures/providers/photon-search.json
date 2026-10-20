@@ -1,0 +1,96 @@
+{
+ "status": 200,
+ "body": {
+  "type": "FeatureCollection",
+  "features": [
+   {
+    "type": "Feature",
+    "properties": {
+     "osm_type": "W",
+     "osm_id": 1233311798,
+     "osm_key": "highway",
+     "osm_value": "residential",
+     "type": "street",
+     "name": "Μεσολογγίου",
+     "district": "Βύρωνας",
+     "city": "Δήμος Βύρωνα",
+     "county": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+     "state": "Αποκεντρωμένη Διοίκηση Αττικής",
+     "country": "Ελλάς",
+     "postcode": "162 31",
+     "countrycode": "GR",
+     "extent": [
+      23.7526736,
+      37.9627193,
+      23.7527095,
+      37.9627029
+     ]
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      23.7526916,
+      37.9627111
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "osm_type": "W",
+     "osm_id": 408277775,
+     "osm_key": "highway",
+     "osm_value": "residential",
+     "type": "street",
+     "name": "Μεσολογγίου",
+     "district": "Βύρωνας",
+     "city": "Δήμος Βύρωνα",
+     "county": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+     "state": "Αποκεντρωμένη Διοίκηση Αττικής",
+     "country": "Ελλάς",
+     "postcode": "116 33",
+     "countrycode": "GR",
+     "extent": [
+      23.7511164,
+      37.9641187,
+      23.752562,
+      37.9628072
+     ]
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      23.7518347,
+      37.9634589
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "osm_type": "N",
+     "osm_id": 4102448173,
+     "osm_key": "amenity",
+     "osm_value": "fast_food",
+     "type": "house",
+     "name": "Βύρωνας Grill",
+     "street": "Μεσολογγίου",
+     "district": "Βύρωνας",
+     "city": "Δήμος Βύρωνα",
+     "county": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+     "state": "Αποκεντρωμένη Διοίκηση Αττικής",
+     "country": "Ελλάς",
+     "postcode": "162 31",
+     "countrycode": "GR"
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      23.7537478,
+      37.9620518
+     ]
+    }
+   }
+  ]
+ }
+}

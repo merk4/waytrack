@@ -1,0 +1,7 @@
+{
+ "status": 400,
+ "credits": null,
+ "body": {
+  "message": "For your account the profile parameter can only be one of [car, bike, foot] but was spaceship"
+ }
+}
